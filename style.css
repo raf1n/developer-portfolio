@@ -2,8 +2,18 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 60px;
+    font-size: 50px;
 }
-span{
+.brown-color{
     color: brown;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 70%;
 }
