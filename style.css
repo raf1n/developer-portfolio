@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .brown-color{
     color: brown;
 }
@@ -16,6 +19,7 @@ h1{
 .half-width{
     width: 50%;
     padding-left: 5%;
+   
 }
 .half-width img{
     width: 70%;
@@ -38,4 +42,27 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 3%;
+    box-shadow: 10px 10px 40px rgb(16, 35, 35);
+    border-radius: 10px;
+    
+}
+#full-stack-developer{
+    border-left: 7px solid rgba(152, 28, 28, 0.789);
+}
+#baby-web-developer{
+    border-left: 7px solid rgb(20, 20, 96);
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.footer{
+    text-align: center;
 }
